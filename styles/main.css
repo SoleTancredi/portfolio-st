@@ -54,6 +54,7 @@ details summary {
 
 img.next-image {
   margin: 0;
+  border-radius: .3em;
 }
 
 .prose a {

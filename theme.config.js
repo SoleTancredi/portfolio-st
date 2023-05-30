@@ -1,9 +1,7 @@
-const YEAR = new Date().getFullYear()
-
 export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
+      <time>{new Date().getFullYear()}</time> © Soledad Tancredi.
       <a href="/feed.xml">RSS</a>
       <style jsx>{`
         a {
